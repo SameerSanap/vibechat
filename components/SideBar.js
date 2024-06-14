@@ -32,11 +32,11 @@ function SideBar() {
   ];
 
   return (
-    <nav className="border-r-4 border-white bg-indigo-400 text-white rounded-2xl h-[400px] mt-20 ml-4">
+    <nav className="border-r-4 border-white bg-indigo-400 text-white rounded-2xl md:h-[400px] mt-20 ml-4">
       <div className="flex justify-between items-center px-4 py-3">
         <div className="text-lg font-semibold">Menu</div>
         <button
-          className="block text-emerald-600 hover:text-emerald-400 focus:text-emerald-400 focus:outline-none"
+          className="block text-white hover:text-emerald-400 focus:text-emerald-400 focus:outline-none"
           onClick={toggleMobileMenu}
         >
           {isMobileMenuOpen ? (

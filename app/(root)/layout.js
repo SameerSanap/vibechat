@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       >
         <Provider>
           <TopBar />
-          <div className="grid grid-cols-[15rem_1fr] gap-9 ">
+          <div className="grid md:grid-cols-[15rem_1fr] gap-9 ">
             <SideBar />
             {children}
           </div>
